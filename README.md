@@ -26,8 +26,12 @@ Step 3. The Decoy Monkey on the Decoy server maintains two lists: User and Bot.
 
 * If the ip exists on the Bot list, the Decoy monkey keeps the request to itself.
 * If the ip exists on the User list, the request is forwarded to the main server.
-* If this is a new ip, a Captcha form is displayed. If the user passes the test, he is declared legitimate and the request is forwarded.
+* The screenshot below shows that te requests are initially redirected to the main server, and on exceeding the rate limit threshold, redirected to the decoy.
+![Redirect to Decoy](https://cloud.githubusercontent.com/assets/3266051/11618219/ccc0fb92-9c65-11e5-85e4-f2ffb1265f0a.png)
 
+* If this is a new ip, a Captcha form is displayed. If the user passes the test, he is declared legitimate and the request is forwarded.
+* The screenshot below shows a sample challenge presented to the user.
+![Captcha challenge presented](https://cloud.githubusercontent.com/assets/3266051/11618258/5fe849c0-9c66-11e5-8176-b1c0e782bd78.png)
 
 
 
