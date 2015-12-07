@@ -17,6 +17,8 @@ We implemented a Decoy Monkey to prevent DDOS attack.
 
 Step 1. We created a Proxy Server which would redirect our requests to the main instance.
 
+![Redirect to Main instance](https://github.com/apoorvmahajan/M4/blob/master/images/Screen%20Shot%202015-12-06%20at%2010.19.19%20PM.png)
+
 * This proxy has a sliding window, which checks if a request is made by a particular ip address beyond a threshold value.
 * The proxy also maintains a Bot list.
 
@@ -27,11 +29,15 @@ Step 3. The Decoy Monkey on the Decoy server maintains two lists: User and Bot.
 * If the ip exists on the Bot list, the Decoy monkey keeps the request to itself.
 * If the ip exists on the User list, the request is forwarded to the main server.
 * The screenshot below shows that te requests are initially redirected to the main server, and on exceeding the rate limit threshold, redirected to the decoy.
-![Redirect to Decoy](https://cloud.githubusercontent.com/assets/3266051/11618334/49a11560-9c67-11e5-8808-6d17606ac0ec.png)
+![Redirect to Decoy](https://github.com/apoorvmahajan/M4/blob/master/images/Screen%20Shot%202015-12-06%20at%2010.19.37%20PM.png)
 
 * If this is a new ip, a Captcha form is displayed. If the user passes the test, he is declared legitimate and the request is forwarded.
 * The screenshot below shows a sample challenge presented to the user.
-![Captcha challenge presented](https://cloud.githubusercontent.com/assets/3266051/11618366/87a1294a-9c67-11e5-9de2-45019f9a202a.png)
+![Captcha challenge presented](https://github.com/apoorvmahajan/M4/blob/master/images/Screen%20Shot%202015-12-06%20at%2010.19.50%20PM.png)
+
+![Redirected to main instance](https://github.com/apoorvmahajan/M4/blob/master/images/Screen%20Shot%202015-12-06%20at%2010.19.50%20PM.pngg)
+
+
 
 
 
