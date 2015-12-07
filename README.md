@@ -26,7 +26,7 @@ We implemented a Decoy Monkey to prevent DDOS attack.
 
 * If the ip exists on the Bot list, the Decoy monkey keeps the request to itself.
 * If the ip exists on the User list, the request is forwarded to the main server.
-* if this is a new ip, a Captcha form is displayed. If the user passes the test, he is declared legitimate and the request is forwarded.
+* If this is a new ip, a Captcha form is displayed. If the user passes the test, he is declared legitimate and the request is forwarded.
 
 
 
