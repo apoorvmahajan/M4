@@ -31,7 +31,7 @@ Step 3. The Decoy Monkey on the Decoy server maintains two lists: User and Bot.
 
 * If this is a new ip, a Captcha form is displayed. If the user passes the test, he is declared legitimate and the request is forwarded.
 * The screenshot below shows a sample challenge presented to the user.
-![Captcha challenge presented](https://cloud.githubusercontent.com/assets/3266051/11618324/3428e6d6-9c67-11e5-96db-e9fb8a7cceab.png)
+![Captcha challenge presented](https://cloud.githubusercontent.com/assets/3266051/11618366/87a1294a-9c67-11e5-9de2-45019f9a202a.png)
 
 
 
