@@ -33,4 +33,4 @@ Step 3. The Decoy Monkey on the Decoy server maintains two lists: User and Bot.
 
 <h3>Screencast </h3>
  <i>Click here to watch the screencast </i>
-[![Click here to watch the screencast] (http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=drVdHQMedyI)
+[![Click here to watch the screencast] (http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/hWwJ2aBQZyE)
