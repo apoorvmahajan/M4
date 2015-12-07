@@ -15,14 +15,14 @@ We implemented a Decoy Monkey to prevent DDOS attack.
 
 ### Steps:
 
-1. We created a Proxy Server which would redirect our requests to the main instance.
+Step 1. We created a Proxy Server which would redirect our requests to the main instance.
 
 * This proxy has a sliding window, which checks if a request is made by a particular ip address beyond a threshold value.
 * The proxy also maintains a Bot list.
 
-2. If the threshold value is crossed or the ip is found in the Bot list, the request is forwarded to the Decoy instead of the main server.
+Step 2. If the threshold value is crossed or the ip is found in the Bot list, the request is forwarded to the Decoy instead of the main server.
 
-3. The Decoy Monkey on the Decoy server maintains two lists: User and Bot.
+Step 3. The Decoy Monkey on the Decoy server maintains two lists: User and Bot.
 
 * If the ip exists on the Bot list, the Decoy monkey keeps the request to itself.
 * If the ip exists on the User list, the request is forwarded to the main server.
