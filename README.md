@@ -35,7 +35,7 @@ Step 3. The Decoy Monkey on the Decoy server maintains two lists: User and Bot.
 * The screenshot below shows a sample challenge presented to the user.
 ![Captcha challenge presented](https://github.com/apoorvmahajan/M4/blob/master/images/Screen%20Shot%202015-12-06%20at%2010.19.50%20PM.png)
 
-![Redirected to main instance](https://github.com/apoorvmahajan/M4/blob/master/images/Screen%20Shot%202015-12-06%20at%2010.19.50%20PM.pngg)
+![Captcha passed](https://github.com/apoorvmahajan/M4/blob/master/images/Screen%20Shot%202015-12-06%20at%2010.20.13%20PM.png)
 
 
 
